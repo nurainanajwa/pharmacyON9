@@ -71,32 +71,31 @@
                             <th>Quantity</th>
                             <th>Price</th>
                             <th>Total Price</th>
-
-                   
                         </tr>
+                    </thead>
 
                     <tbody>
-                        </thead>
-                        @foreach ($order as $orders)
-                        <td>{{ $orders->id }}</td>
-                        <td>{{ $orders->cus_name }}</td>
-                        <td>{{ $orders->created_at}}</td>
-                        
-                        @endforeach
+                        <tr>
+                            @foreach ($order as $orders)
+                            <td>{{ $orders->id }}</td>
+                            <td>{{ $orders->cus_name }}</td>
+                            <td>{{ $orders->created_at}}</td>
 
-                        @php $total = 0; @endphp
+                            @endforeach
+
+                            @php $total = 0; @endphp
 
 
 
-                        @foreach ($cart as $carts)
-                        <td>{{ $carts->product_name }}</td>
-                        <td>{{ $carts->quantity}}</td>
-                        <td>{{ $carts->price}}</td>
-                        @php $total += ((int)$carts->price) * ((int)$carts->quantity); @endphp
-                        @endforeach
-                        <td>RM {{$total}} </td>
+                            @foreach ($cart as $carts)
+                            <td>{{ $carts->product_name }}</td>
+                            <td>{{ $carts->quantity}}</td>
+                            <td>{{ $carts->price}}</td>
+                            @php $total += ((int)$carts->price) * ((int)$carts->quantity); @endphp
+                            @endforeach
+                            <td>RM {{$total}} </td>
                         </tr>
-                       
+
                     </tbody>
                 </table>
 
