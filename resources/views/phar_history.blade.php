@@ -67,8 +67,9 @@
                             <th>Order ID</th>
                             <th>Customer Name</th>
                             <th>Date</th>
-                            <th>Product Name</th>
                             <th>Quantity</th>
+                            <th>Product Name</th>
+                            
                             <th>Price</th>
                             <th>Total Price</th>
                         </tr>
@@ -84,8 +85,6 @@
                             @endforeach
 
                             @php $total = 0; @endphp
-
-
 
                             @foreach ($cart as $carts)
                             <td>{{ $carts->product_name }}</td>
