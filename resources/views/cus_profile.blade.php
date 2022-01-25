@@ -78,13 +78,11 @@
                 <div class="txt_field">
                     <p>Username</p>
                     <input name="username" id="username" type="text" class="form-control" value="{{$data->username}}">
-
                 </div>
 
                 <div class="txt_field">
                     <p>Phone Number</p>
                     <input name="phoneNo" id="phoneNo" type="text" class="form-control" value="{{$data->phoneNo}}">
-
                 </div>
 
                 <div class="txt_field">
