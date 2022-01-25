@@ -69,7 +69,6 @@
                             <th>Date</th>
                             <th>Quantity</th>
                             <th>Product Name</th>
-                            
                             <th>Price</th>
                             <th>Total Price</th>
                         </tr>
@@ -87,8 +86,9 @@
                             @php $total = 0; @endphp
 
                             @foreach ($cart as $carts)
-                            <td>{{ $carts->product_name }}</td>
+                            
                             <td>{{ $carts->quantity}}</td>
+                            <td>{{ $carts->product_name }}</td>
                             <td>{{ $carts->price}}</td>
                             @php $total += ((int)$carts->price) * ((int)$carts->quantity); @endphp
                             @endforeach
