@@ -43,7 +43,7 @@
 
       <a href="home">HOME</a>
     </div>
-  </div></br></br>
+  </div></br>
   <div class="text">
     <h1>EASY AND</h1>
     <h1>CONVENIENT<h1>
