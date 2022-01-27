@@ -49,7 +49,7 @@
     <h1>CONVENIENT<h1>
 
     <h3>You can scan this qr code to open the website on your mobile</h3><br>
-    <img href="cus_login" src="qrcode.png" width="300" height="300" style="margin-left:100px;"></img>
+    <img href="cus_login" src="qrcode.png" width="200" height="200" style="margin-left:100px;"></img>
   </div>
 
 
