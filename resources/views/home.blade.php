@@ -48,7 +48,7 @@
     <h1>EASY AND</h1>
     <h1>CONVENIENT<h1>
 
-    <h3>You can scan this qr code to open the application on your mobile</h3><br>
+    <h3>You can scan this qr code to open the website on your mobile</h3><br>
     <img href="cus_login" src="qrcode.png" width="300" height="300" style="margin-left:100px;"></img>
   </div>
 
